@@ -15,7 +15,7 @@ export default function HomePage() {
     <>
     <h1>Minimal Homepage Test</h1>
       <p>If this builds, the issue is in one of the commented out sections.</p>
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <AboutSection />
       <StatsSection />
       <SkillsSection />
