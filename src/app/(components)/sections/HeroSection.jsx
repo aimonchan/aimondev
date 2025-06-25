@@ -30,6 +30,14 @@ export default function HeroSection() {
           Here, assuming CSS will handle its positioning and fade-in via AOS.
       */}
       <Image src="/images/hero-bg1.webp" width={400} height={400} className="img-fluid" alt="Hero background" data-aos="fade-in" />
+      {/* <Image
+        src="/images/hero-bg1.webp" // Ensure this path is correct
+        alt="Hero background"
+        fill
+        style={{ objectFit: 'cover', zIndex: -1 }} // Or your preferred objectFit
+        data-aos="fade-in"
+        priority // If it's LCP
+      /> */}
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Ai Mon</h2>
