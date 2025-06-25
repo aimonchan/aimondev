@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -12,24 +11,17 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation'; // If you use navigation
 import 'swiper/css/autoplay';   // If you use autoplay
 // ... any other Swiper module CSS you need
-import './globals.css'; 
+
 
 import { Roboto, Poppins, Raleway } from 'next/font/google';
-import './globals.css'; // Your main.css content + potentially vendor CSS imports
 
 // Import Vendor CSS from npm packages (Recommended over @import in globals.css for these)
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'aos/dist/aos.css';
-import 'glightbox/dist/css/glightbox.min.css';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'aos/dist/aos.css';
-import 'glightbox/dist/css/glightbox.min.css';
+
+
 
 // Import components we will create soon
-import SiteHeader from './(components)/SiteHeader';
+//import SiteHeader from './(components)/SiteHeader';
 import SiteFooter from './(components)/SiteFooter';
 import Preloader from './(components)/Preloader';
 import ScrollTop from './(components)/ScrollTop';
@@ -75,7 +67,7 @@ export default function RootLayout({ children }) {
           For now, if "index-page" has global styles, incorporate them into globals.css or here.
       */}
       <body>
-        <SiteHeader />
+        {/* <SiteHeader /> */}
         <main id="main" className="main"> {/* Added id="main" from your HTML structure */}
           {children}
         </main>
