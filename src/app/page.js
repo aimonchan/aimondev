@@ -16,14 +16,14 @@ export default function HomePage() {
     <h1>Minimal Homepage Test</h1>
       <p>If this builds, the issue is in one of the commented out sections.</p>
       <HeroSection />
-      {/* <AboutSection />
+      <AboutSection />
       <StatsSection />
       <SkillsSection />
       <ResumeSection />
       <PortfolioSection />
       <ServicesSection />
       <TestimonialsSection />
-      <ContactSection /> */}
+      <ContactSection />
     </>
   );
 }
