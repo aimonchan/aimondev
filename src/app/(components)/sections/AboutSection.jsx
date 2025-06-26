@@ -21,7 +21,7 @@ export default function AboutSection() {
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 December 1992</span></li>
+                  {/* <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 December 1992</span></li> */}
                   <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.aimondev.site</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+95 95 6600 281</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chiang Mai, Thailand</span></li>
@@ -29,7 +29,7 @@ export default function AboutSection() {
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                  {/* <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>33</span></li> */}
                   <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor in Art</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contact@aimondev.site</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
