@@ -21,7 +21,7 @@ import { Roboto, Poppins, Raleway } from 'next/font/google';
 
 
 // Import components we will create soon
-//import SiteHeader from './(components)/SiteHeader';
+import SiteHeader from './(components)/SiteHeader';
 import SiteFooter from './(components)/SiteFooter';
 import Preloader from './(components)/Preloader';
 import ScrollTop from './(components)/ScrollTop';
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
           For now, if "index-page" has global styles, incorporate them into globals.css or here.
       */}
       <body>
-        {/* <SiteHeader /> */}
+        <SiteHeader />
         <main id="main" className="main"> {/* Added id="main" from your HTML structure */}
           {children}
         </main>
