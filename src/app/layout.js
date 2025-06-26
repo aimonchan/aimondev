@@ -50,9 +50,9 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-  title: 'Index - iPortfolio NextJS', // Update as needed
-  description: 'My iPortfolio translated to Next.js', // Update
-  keywords: 'portfolio, nextjs, web developer', // Update
+  title: 'AiMonDev', // Update as needed
+  description: 'Web devlopment service for your professional online image without breaking a bank', // Update
+  keywords: 'web development, nextjs, web developer', // Update
   icons: {
     icon: '/favicon.png',
     apple: '/apple-touch-icon.png',
